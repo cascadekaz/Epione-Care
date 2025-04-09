@@ -1,0 +1,63 @@
+.analyze-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    margin-top: 100px;
+}
+
+.model-selector,
+.upload-section {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select,
+input[type="file"] {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.analyze-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.analyze-btn:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-top: 1rem;
+}
+
+.result-box {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.download-report-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #27ae60;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}

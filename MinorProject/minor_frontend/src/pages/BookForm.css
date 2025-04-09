@@ -1,0 +1,94 @@
+.booking-form-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 10px;
+    background-color: thistle;
+    min-height: 100vh;
+    margin-top: 15vh;
+}
+
+.booking-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 500px;
+}
+
+.bookform-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="date"],
+select,
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+select:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
+
+.confirm-btn {
+    width: 100%;
+    margin-top: 25px;
+    background-color: #3498db;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-btn:hover {
+    background-color: #2980b9;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+/* Mobile responsive */
+@media (max-width: 480px) {
+    .bookform-container {
+        padding: 25px;
+    }
+
+    .bookform-title {
+        font-size: 1.6rem;
+    }
+}

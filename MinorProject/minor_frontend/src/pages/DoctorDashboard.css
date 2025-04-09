@@ -1,0 +1,124 @@
+
+
+  .doctor-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 15vh;
+    position: relative; /* Add this for proper positioning */
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: #0066cc;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0; /* Adjust padding */
+    display: flex;
+    align-items: center;
+    position: absolute; /* Change to absolute positioning */
+    left: 2rem; /* Position from left */
+    top: 2rem; /* Position from top */
+    /* margin-bottom: 2rem; */
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adjust the doctor-title margin to prevent overlap */
+  .doctor-title {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    margin-top: 2rem; /* Add margin to prevent overlap with back button */
+  }
+
+
+
+  /* .doctor-image-container { */
+    /* text-align: center; */
+    
+  /* } */
+  
+ .doctor-image {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  .doctor-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .doctor-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .doctor-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #7f8c8d;
+    font-weight: normal;
+  }
+  
+  .doctor-header h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+  
+  .doctor-details {
+    margin-bottom: 2rem;
+  }
+  
+  .doctor-details p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 2rem 0;
+  }
+  
+  .appointment-section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .doctor-bio {
+    text-align: justify;
+    margin-top: 1rem;
+  }
+  
+  strong {
+    color: #2c3e50;
+  }
+  
+  button {
+    display: block;
+    margin: 0 auto 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1a252f;
+  }
+

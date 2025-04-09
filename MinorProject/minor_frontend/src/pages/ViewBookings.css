@@ -1,0 +1,24 @@
+.view-bookings {
+    padding: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+h2 {
+    color: #2c3e50;
+}
+
+.booking-list {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.booking-card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #f9f9f9;
+}

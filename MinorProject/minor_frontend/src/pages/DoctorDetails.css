@@ -1,0 +1,70 @@
+
+
+.doctor-details-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    margin-top: 90px;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.doctor-details-page h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.doctor-image {
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    max-width: 220px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.doctor-details-page p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.doctor-details-page strong {
+    color: #34495e;
+}
+
+.doctor-details-page ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.doctor-details-page li {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .doctor-details-page {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .doctor-image {
+        max-width: 100%;
+    }
+
+    .doctor-details-page h1 {
+        font-size: 1.5rem;
+    }
+
+    .doctor-details-page p,
+    .doctor-details-page li {
+        font-size: 1rem;
+    }
+}

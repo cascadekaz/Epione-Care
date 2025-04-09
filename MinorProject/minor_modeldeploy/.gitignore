@@ -1,0 +1,4 @@
+*.keras
+**/__pycache__/
+venv2/
+venv/
