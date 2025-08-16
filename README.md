@@ -82,7 +82,7 @@ minorProject/
 
 ---
 
-### 👤 Kaushiki Ghosh  
+### 👤 Kaushiki Ghosh   
 📧 **Email**: ghoshkaushiki2004@gmail.com  
 🔗 **LinkedIn**: [linkedin.com/in/kaushiki](https://www.linkedin.com/in/kaushikighosh)  
 🌐 **Portfolio**: [kaushiki-portfolio.com](https://kaushiki.vercel.app/)  
